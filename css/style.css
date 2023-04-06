@@ -1,0 +1,14 @@
+/* Import fonts form fonts.css */
+
+@import url(./fonts.css);
+
+
+.desc-text h3::after {
+ content: "";
+ height: 2px;
+ width: 25vh;
+ background: black;
+ display: inline-block;
+ margin-left: 5%;
+ transform: translateY(-10px);
+}
